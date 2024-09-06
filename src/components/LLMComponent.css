@@ -1,0 +1,73 @@
+.LLMComponent {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: max-content;
+    width: 400px;
+    
+}
+
+.LLMComponent h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.LLMComponent-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: vertical; 
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+.LLMComponent-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #5e02a9;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.LLMComponent-button:hover {
+    background-color: #6e4193;
+}
+
+.LLMComponent-answer {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    white-space: pre-wrap; 
+    height: 400px;
+
+}
+.LLMComponent-copyButton {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.LLMComponent-copyButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.LLMComponent-copyStatus {
+    margin-top: 10px;
+    color: #4caf50;
+    font-weight: bold;
+}
